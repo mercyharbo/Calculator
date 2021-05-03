@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background-color: lightslategrey;
+  text-align: center;
+  padding: 5% 0;
+}
+
+h1 {
+  padding: 5% 0;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+input { 
+  padding: 1% 1%;
+  border-radius: 10px;
+  outline: 0;
+  border: 0;
+  width: 30%;
+  margin: 2% 0;
+}
+
+button {
+  width: 60%;
+  padding: 1% 0;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: red;
+  color: white;
+}
+
+@media screen and (max-width:700px) {
+  body {
+    padding: 5%;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  input, button {
+    width: 100%;
+    margin: 2% 0;
+    padding: 2% 0;
+  }
+}
+/*
+.calculator {
+  border: 1px groove grey;
+  padding: 5px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.calculator_display {
+  width: 100%;
+  background: #000;
+  padding: 25px;
+  text-align: right;
+  font-size: 20px;
+  cursor: text;
+}
+
+.calculator__keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+  "none none none none"
+  "seven eight nine equal"
+  " four five six equal"
+  "one two three equal"
+  " clear zero decimal equal" ;
+}
+
+button {
+  border: 0;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border: 1px solid #eaeaea;
+  font-weight: 500;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.one {
+  grid-area: one;
+}
+
+.two {
+  grid-area: two;
+}
+
+.three {
+  grid-area: three;
+}
+
+.four {
+  grid-area: four;
+}
+
+.five {
+  grid-area: five;
+}
+
+.six {
+  grid-area: six;
+}
+
+.seven {
+  grid-area: seven;
+}
+
+.eight {
+  grid-area: eight;
+}
+
+.nine {
+  grid-area: nine;
+}
+
+.decimal {
+  grid-area: decimal;
+}
+
+.clear {
+  grid-area: clear;
+}
+
+.equal {
+  grid-area: equal;
+  background-color: #ff9a00;
+}
+
+.key--operator {
+  background-color: #c9d6df;
+  outline: 0;
+}
+
+.key--operator:hover, 
+.number:hover, 
+.equal:hover {
+  background-color: #2d4059;
+  color: white;
+}
+
+.number:focus, 
+.key--operator:focus, 
+.equal:focus {
+  outline: 0;
+}
+*/
